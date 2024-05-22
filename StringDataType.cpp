@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 
-int main() {
+int main()
+{
   // Declaration and initialization
   std::string str1 = "Hello";
   std::string str2;
@@ -16,7 +17,6 @@ int main() {
 
   // Finding the length of a string
   std::cout << "Length of str2: " << str2.length() << std::endl;
-
   // Accessing characters in a string
   std::cout << "First character of str2: " << str2[0] << std::endl;
 
@@ -26,9 +26,12 @@ int main() {
 
   // Finding a substring
   size_t pos = str2.find("World");
-  if (pos != std::string::npos) {
+  if (pos != std::string::npos)
+  {
     std::cout << "\"World\" found at position: " << pos << std::endl;
-  } else {
+  }
+  else
+  {
     std::cout << "\"World\" not found" << std::endl;
   }
 
