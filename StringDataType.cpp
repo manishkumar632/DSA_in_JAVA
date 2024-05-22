@@ -36,7 +36,7 @@ int main()
   }
 
   // Replacing part of a string
-  str2.replace(6, 5, "Universe");
+  str2.replace(6, 5, "Universe "); // Here 6 is the starting index, 5 is the number of char to be replace and "Universe" is the world to be replace with.
   std::cout << "str2 after replacement: " << str2 << std::endl;
 
   return 0;
