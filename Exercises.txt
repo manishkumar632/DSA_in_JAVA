@@ -1,2 +1,8 @@
 Question 1:
     Write a program that declares variables of each basic data type (int, float, double, char, and bool), assigns them values, and prints these values to the console.
+
+Question 2:
+    Write a program that uses if statements to check if a number is positive, negative, or zero. Then, use a for loop to print the numbers from 1 to 10.
+
+Question 3:
+    Write a program that contains a function called isEven() which takes an integer as input and returns true if the number is even and false otherwise. Use this function to determine whether a number entered by the user is even or odd.
