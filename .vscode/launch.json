@@ -1,52 +1,87 @@
 {
-	"version": "0.2.0",
-	"configurations": [
-		{
-			"type": "java",
-			"name": "Test",
-			"request": "launch",
-			"mainClass": "Test",
-			"projectName": "DSA_in_JAVA_509cc3b7"
-		},
-		{
-			"type": "java",
-			"name": "QuickSort",
-			"request": "launch",
-			"mainClass": "QuickSort",
-			"projectName": "DSA_in_JAVA_509cc3b7"
-		},
-		{
-			"type": "java",
-			"name": "DataTypes",
-			"request": "launch",
-			"mainClass": "DataTypes",
-			"projectName": "DSA_in_JAVA_509cc3b7"
-		},
-		{
-			"type": "java",
-			"name": "Reverse_Substrings_Between_Each_Pair_of_Parentheses",
-			"request": "launch",
-			"mainClass": "Reverse_Substrings_Between_Each_Pair_of_Parentheses",
-			"projectName": "DSA_in_JAVA_9ad2142d"
-		},
-		{
-			"name": "C/C++ Runner: Debug Session",
-			"type": "cppdbg",
-			"request": "launch",
-			"args": [],
-			"stopAtEntry": false,
-			"externalConsole": false,
-			"cwd": "/workspaces/DSA_in_JAVA",
-			"program": "/workspaces/DSA_in_JAVA/build/Debug/outDebug",
-			"MIMode": "gdb",
-			"miDebuggerPath": "gdb",
-			"setupCommands": [
-				{
-					"description": "Enable pretty-printing for gdb",
-					"text": "-enable-pretty-printing",
-					"ignoreFailures": true
-				}
-			]
-		}
-	]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SinglyLinkedList",
+            "request": "launch",
+            "mainClass": "linkedlist.SinglyLinkedList",
+            "projectName": "DSA_in_JAVA_280bcff6"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeString",
+            "request": "launch",
+            "mainClass": "PalindromeString",
+            "projectName": "DSA_in_JAVA_280bcff6"
+        },
+        {
+            "type": "java",
+            "name": "FindMissingNumber",
+            "request": "launch",
+            "mainClass": "FindMissingNumber",
+            "projectName": "DSA_in_JAVA_280bcff6"
+        },
+        {
+            "type": "java",
+            "name": "ResizeArray",
+            "request": "launch",
+            "mainClass": "ResizeArray",
+            "projectName": "DSA_in_JAVA_280bcff6"
+        },
+        {
+            "type": "java",
+            "name": "MoveAllZeroToEnd",
+            "request": "launch",
+            "mainClass": "MoveAllZeroToEnd",
+            "projectName": "DSA_in_JAVA_280bcff6"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "DSA_in_JAVA_509cc3b7"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "DSA_in_JAVA_509cc3b7"
+        },
+        {
+            "type": "java",
+            "name": "DataTypes",
+            "request": "launch",
+            "mainClass": "DataTypes",
+            "projectName": "DSA_in_JAVA_509cc3b7"
+        },
+        {
+            "type": "java",
+            "name": "Reverse_Substrings_Between_Each_Pair_of_Parentheses",
+            "request": "launch",
+            "mainClass": "Reverse_Substrings_Between_Each_Pair_of_Parentheses",
+            "projectName": "DSA_in_JAVA_9ad2142d"
+        },
+        {
+            "name": "C/C++ Runner: Debug Session",
+            "type": "cppdbg",
+            "request": "launch",
+            "args": [],
+            "stopAtEntry": false,
+            "externalConsole": false,
+            "cwd": "/workspaces/DSA_in_JAVA",
+            "program": "/workspaces/DSA_in_JAVA/build/Debug/outDebug",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
 }
